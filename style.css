@@ -1,0 +1,105 @@
+body {
+  background-image: url("gettyimages-991925098-2048x2048.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#header-nav {
+  background-color: #b31e1e69;
+  border-radius: 0;
+  border: 0;
+}
+
+#header-nav button {
+  margin-top: 22px;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: #fce29e;
+}
+
+.navbar-collapse {
+  border-top: 0;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+  line-height: 76px;
+  height: 76px;
+  padding-top: 0;
+}
+
+.navbar-brand h1 {
+  color: #ffffff;
+  font-family: "Abril Fatface", cursive;
+  font-weight: bolder;
+  font-size: 1.8em;
+}
+
+.navbar-brand a:hover {
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #fe9797;
+}
+
+#nav-list {
+  background-color: #b31e1e69;
+}
+
+#nav-list a {
+  /*text-align: center;*/
+  font-weight: bolder;
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+#nav-list a:hover {
+  color: #ff0101;
+  background-color: #ffffff;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid #ffffff;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: #ce0000;
+}
+
+/** END HEADER */
+
+/** HOME PAGE **/
+
+#main-content {
+  width: 92%;
+  margin-bottom: 30px;
+}
+
+#main-content h2 {
+  font-size: 2.9em;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#main-content h3 {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+#chicken-tile,
+#b-tile,
+#s-tile {
+  width: 100%;
+  padding: 20px;
+  background-color: #beffff;
+  margin-bottom: 60px;
+  box-shadow: 0 0 80px #b31e1e69;
+}
+
+/** END HOME PAGE **/
